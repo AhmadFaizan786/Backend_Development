@@ -57,3 +57,20 @@ const fs = require('fs');
 //   if(err) throw err;
 //   console.log("removed folder")
 // })
+
+// const http = require('http');
+
+// server = http.createServer(function(req,res){
+//   res.end("hello world")
+// })
+
+// server.listen(3000);
+
+const express = require('express')
+const app = express()
+
+app.get('/',function(req,res){
+  res.send('Hello World')
+})
+
+app.listen(3000)
