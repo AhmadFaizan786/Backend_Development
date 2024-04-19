@@ -9,6 +9,9 @@
   "author": "Faizan Ahmad",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "parser": "^0.1.4"
   }
 }
